@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import ColorsPage from './components/pages/colors';
-import SingleColorPage from './components/pages/SingleColor';
+import ColorsPage from './components/pages/Colors';
 import './App.css';
 
 class App extends Component {
@@ -15,7 +14,7 @@ class App extends Component {
         <>
           <Switch>
             <Route path='/' exact component={ColorsPage}></Route>
-            <Route path='color/:id' component={SingleColorPage}></Route>
+            <Route path='/single-color/:id' component={ColorsPage}></Route>
           </Switch>
         </>
       </BrowserRouter>
