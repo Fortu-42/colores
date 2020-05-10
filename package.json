@@ -3,18 +3,24 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "autoprefixer": "^9.7.6",
     "axios": "^0.19.2",
     "cra-template": "1.0.3",
+    "postcss-cli": "^7.1.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.4.1"
+    "react-scripts": "^3.4.1",
+    "tailwindcss": "^1.4.6"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "build:styles": "postcss src/App.css -o src/App.css",
+    "prebuild": "npm run build:styles",
+    "prestart": "npm run build:styles"
   },
   "eslintConfig": {
     "extends": "react-app"
