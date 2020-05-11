@@ -10,3 +10,15 @@ html {
 #root {
   height: 100%;
 }
+
+.switch-wrapper {
+  @apply h-full;
+  position: relative;
+  transition-timing-function: ease-in-out;
+}
+
+.switch-wrapper > div {
+  @apply w-full h-full;
+  transition-timing-function: ease-in-out;
+  position: absolute;
+}
