@@ -1,3 +1,31 @@
+## Breve introducción a la aplicación
+
+Aplicación hecha con React para mostrar diferentes colores (traidos desde una API) y copiar el valor del mismo al hacer click, tiene paginación y muestra un color individual, donde al hacer click igualmente se copia el valor.
+
+## Listado de las tecnologías o frameworks utilizados
+
+- axios: para hacer fetch de los colores
+- react-copy-to-clipboard: para hacer funcionalidad de copiar al hacer click
+- react-icons: para los iconos indicadores en el paginador
+- react-router-dom: para la navegación entre componentes en la aplicación
+- react-router-transition: para hacer transiciones entre diferentes páginas
+- # tailwind: como librería de clases de utilidad de css o UI
+- purge-css: incorporado en la librería tailwind para eliminar estilos no utilizadons en producción
+
+## Cómo instalar las dependencias y correr el proyecto
+
+# `npm install`
+
+# `npm run start`
+
+## URL a producción en caso de haber sido subido
+
+# El sitio fue puesto en producción usando Netlify
+
+# Url del Repositortio : https://github.com/Fortu-42/colores
+
+# Url de la app en producción: https://nostalgic-mclean-1f9cbe.netlify.app/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
