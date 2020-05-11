@@ -9,22 +9,22 @@ Aplicación hecha con React para mostrar diferentes colores (traidos desde una A
 - react-icons: para los iconos indicadores en el paginador
 - react-router-dom: para la navegación entre componentes en la aplicación
 - react-router-transition: para hacer transiciones entre diferentes páginas
-- ### tailwind: como librería de clases de utilidad de css o UI
+- #### tailwind: como librería de clases de utilidad de css o UI
 - purge-css: incorporado en la librería tailwind para eliminar estilos no utilizadons en producción
 
 ## Cómo instalar las dependencias y correr el proyecto
 
-# `npm install`
+#### `npm install`
 
-# `npm run start`
+#### `npm run start`
 
 ## URL a producción en caso de haber sido subido
 
-### El sitio fue puesto en producción usando Netlify
+#### El sitio fue puesto en producción usando Netlify
 
-### Url del Repositortio : https://github.com/Fortu-42/colores
+#### Url del Repositortio : https://github.com/Fortu-42/colores
 
-### Url de la app en producción: https://nostalgic-mclean-1f9cbe.netlify.app/
+#### Url de la app en producción: https://nostalgic-mclean-1f9cbe.netlify.app/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
