@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 import { AnimatedSwitch } from 'react-router-transition';
-import ColorsPage from './components/pages/Colors';
+import ColorsPage from './components/pages/colors';
 import './App.css';
 
 class App extends Component {
